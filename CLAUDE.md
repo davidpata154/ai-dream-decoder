@@ -6,16 +6,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 `ai-dream-decoder` is an AI-powered dream interpretation app. The project is in early development.
 
-## Running Claude with Gemini
-
-This project uses [Claude Code Router (CCR)](https://github.com/musistudio/claude-code-router) to route Claude requests through Gemini. To start a session:
-
-```bash
-./claude-gemini.sh
-```
-
-The script reads `GOOGLE_API_KEY` from `.env.local`, activates the CCR router, and launches Claude Code via `ccr code`.
-
 ## Intended Stack
 
 Based on installed skills, the planned stack is:
