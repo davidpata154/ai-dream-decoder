@@ -1,2 +1,23 @@
+# Environment
 .env.local
+.env*.local
+
+# Dependencies
+node_modules
+
+# Next.js build output
+.next
+out
+
+# Testing
+coverage
+playwright-report
+test-results
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+.DS_Store
+*.log
 .claude/

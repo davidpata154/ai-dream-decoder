@@ -1,0 +1,615 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "IopQe",
+      "x": 0,
+      "y": 0,
+      "name": "Pantalla de Entrada",
+      "width": 390,
+      "height": 844,
+      "fill": "#0B0B0E",
+      "layout": "vertical",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "J4wA8",
+          "name": "topSpacer",
+          "width": "fill_container",
+          "height": 64
+        },
+        {
+          "type": "frame",
+          "id": "khKAj",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            0,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "gwjPy",
+              "name": "Moon Icon Container",
+              "width": 72,
+              "height": 72,
+              "fill": "#1A1A1E",
+              "cornerRadius": 36,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "2CWte",
+                  "name": "moonIcon",
+                  "width": 36,
+                  "height": 36,
+                  "iconFontName": "moon",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6366F1"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "mhyNL",
+              "name": "App Title",
+              "fill": "#FAFAF9",
+              "content": "AI Dream Decoder",
+              "textAlign": "center",
+              "fontFamily": "Fraunces",
+              "fontSize": 28,
+              "fontWeight": "500",
+              "letterSpacing": -0.8
+            },
+            {
+              "type": "text",
+              "id": "GFsoO",
+              "name": "App Subtitle",
+              "fill": "#6B6B70",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Descubre los mensajes ocultos\nen tus sueños con inteligencia artificial",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "DM Sans",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "MFOFh",
+          "name": "midSpacer",
+          "width": "fill_container",
+          "height": 40
+        },
+        {
+          "type": "frame",
+          "id": "NHNZv",
+          "name": "Form Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            0,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "prC29",
+              "name": "Textarea Label",
+              "fill": "#FAFAF9",
+              "content": "Describe tu sueño",
+              "fontFamily": "DM Sans",
+              "fontSize": 14,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "L5vPx",
+              "name": "Textarea Box",
+              "width": "fill_container",
+              "height": 180,
+              "fill": "#16161A",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#2A2A2E"
+              },
+              "layout": "vertical",
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UsdOq",
+                  "name": "Textarea Placeholder",
+                  "fill": "#4A4A50",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Escribe aquí todos los detalles de tu sueño: personajes, lugares, emociones, colores...",
+                  "lineHeight": 1.5,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zBnX7",
+              "name": "Char Count Row",
+              "width": "fill_container",
+              "justifyContent": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HyG3h",
+                  "name": "charCount",
+                  "fill": "#4A4A50",
+                  "content": "0 / 500",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9rfv1",
+              "name": "CTA Button",
+              "width": "fill_container",
+              "height": 56,
+              "fill": "#6366F1",
+              "cornerRadius": 16,
+              "gap": 10,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "0fORy",
+                  "name": "ctaIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "sparkles",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "text",
+                  "id": "5vDPr",
+                  "name": "ctaLabel",
+                  "fill": "#FFFFFF",
+                  "content": "Interpretar mi sueño",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JnRzP",
+              "name": "Hint Row",
+              "width": "fill_container",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "8lwiK",
+                  "name": "hintIcon",
+                  "width": 14,
+                  "height": 14,
+                  "iconFontName": "info",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6B6B70"
+                },
+                {
+                  "type": "text",
+                  "id": "L6W4A",
+                  "name": "hintText",
+                  "fill": "#6B6B70",
+                  "content": "Más detalles = mejor interpretación",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "X78bh",
+          "name": "botSpacer",
+          "width": "fill_container",
+          "height": 40
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "lpRiQ",
+      "x": 470,
+      "y": 0,
+      "name": "Pantalla de Resultado",
+      "width": 390,
+      "height": 844,
+      "fill": "#0B0B0E",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "PIJxN",
+          "name": "Top Bar",
+          "width": "fill_container",
+          "height": 56,
+          "gap": 8,
+          "padding": [
+            0,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "r3sIb",
+              "name": "backIcon",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "arrow-left",
+              "iconFontFamily": "lucide",
+              "fill": "#6B6B70"
+            },
+            {
+              "type": "text",
+              "id": "tqimy",
+              "name": "barTitle",
+              "fill": "#FAFAF9",
+              "content": "Interpretación",
+              "fontFamily": "DM Sans",
+              "fontSize": 16,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "spmWg",
+          "name": "Scroll Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            0,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "UFr7G",
+              "name": "Dream Image Card",
+              "width": "fill_container",
+              "height": 220,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1771951602073.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 20,
+              "layout": "vertical",
+              "gap": 10,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5JT9s",
+                  "name": "imgLabel",
+                  "fill": "#FFFFFF20",
+                  "content": "Imagen generada por IA",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JQosD",
+              "name": "Interpretation Card",
+              "width": "fill_container",
+              "fill": "#16161A",
+              "cornerRadius": 20,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#2A2A2E"
+              },
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7ltt4",
+                  "name": "Card Header",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NJqFz",
+                      "name": "Icon Badge",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "#1A1A1E",
+                      "cornerRadius": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "VZ9sD",
+                          "name": "brainIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "brain-circuit",
+                          "iconFontFamily": "lucide",
+                          "fill": "#6366F1"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "DeKG8",
+                      "name": "cardTitle",
+                      "fill": "#FAFAF9",
+                      "content": "Tu interpretación",
+                      "fontFamily": "Fraunces",
+                      "fontSize": 18,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bqeWk",
+                  "name": "Divider",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#2A2A2E"
+                },
+                {
+                  "type": "frame",
+                  "id": "dWura",
+                  "name": "Text Wrapper",
+                  "width": 302,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sJmXl",
+                      "name": "Interpretation Text",
+                      "fill": "#8E8E93",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tu sueño refleja una búsqueda de transformación interior. El agua simboliza tu inconsciente fluyendo hacia nuevas posibilidades. Los personajes representan aspectos de tu psique en busca de equilibrio.\n\nEl violeta dominante indica una conexión espiritual y un período de despertar creativo.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5fO92",
+                  "name": "Tags Row",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JFaWO",
+                      "name": "Tag Indigo",
+                      "fill": "#1A1A1E",
+                      "cornerRadius": 100,
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "WXRrb",
+                          "name": "dot1",
+                          "width": 6,
+                          "height": 6,
+                          "fill": "#6366F1",
+                          "cornerRadius": 3
+                        },
+                        {
+                          "type": "text",
+                          "id": "m8ioA",
+                          "name": "label1",
+                          "fill": "#6366F1",
+                          "content": "Transformación",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WHyyK",
+                      "name": "Tag Green",
+                      "fill": "#1A1A1E",
+                      "cornerRadius": 100,
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "B57f6",
+                          "name": "dot2",
+                          "width": 6,
+                          "height": 6,
+                          "fill": "#32D583",
+                          "cornerRadius": 3
+                        },
+                        {
+                          "type": "text",
+                          "id": "k86KG",
+                          "name": "label2",
+                          "fill": "#32D583",
+                          "content": "Crecimiento",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6w6PK",
+                      "name": "Tag Coral",
+                      "fill": "#1A1A1E",
+                      "cornerRadius": 100,
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "iRgPg",
+                          "name": "dot3",
+                          "width": 6,
+                          "height": 6,
+                          "fill": "#E85A4F",
+                          "cornerRadius": 3
+                        },
+                        {
+                          "type": "text",
+                          "id": "YR9Ya",
+                          "name": "label3",
+                          "fill": "#E85A4F",
+                          "content": "Espiritualidad",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WbEFe",
+              "name": "spacer",
+              "width": "fill_container",
+              "height": 8
+            },
+            {
+              "type": "frame",
+              "id": "qR12l",
+              "name": "New Interpretation Button",
+              "width": "fill_container",
+              "height": 56,
+              "fill": "#1A1A1E",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#3A3A40"
+              },
+              "gap": 10,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "lf1Yk",
+                  "name": "refreshIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "refresh-cw",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6B6B70"
+                },
+                {
+                  "type": "text",
+                  "id": "OlGGy",
+                  "name": "newBtnLabel",
+                  "fill": "#FAFAF9",
+                  "content": "Nueva interpretación",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ejf4d",
+              "name": "Share Row",
+              "width": "fill_container",
+              "gap": 12,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "juMea",
+                  "name": "shareIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "share-2",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6B6B70"
+                },
+                {
+                  "type": "text",
+                  "id": "rpL9N",
+                  "name": "shareLabel",
+                  "fill": "#6B6B70",
+                  "content": "Compartir interpretación",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
